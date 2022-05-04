@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Bai Jamjuree";
+  src: url(/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -10,11 +14,16 @@
   background-color: white;
   font-size: 18px;
   justify-content: center;
+  font-family: "Bai Jamjuree";
 }
 .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("/images/bg-header-desktop.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  clear: both;
 }
 
 .page-info {
@@ -184,6 +193,10 @@ h3 {
   font-size: 15px;
 }
 
+.navvs {
+  display: flex;
+  flex-direction: column;
+}
 .nav {
   margin-top: 100px;
 }
@@ -241,7 +254,13 @@ a:hover {
   color: hsl(233, 48%, 51%);
 }
 
-@media (width: 450px) {
+@media (max-width: 450px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .intro {
     display: flex;
     flex-direction: column;
@@ -254,8 +273,113 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0px 20px 0px 20px;
+  }
+  .page-info p {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 17px;
+    font-weight: 400;
   }
   .logo {
     justify-self: center;
+    margin-top: 50px;
+  }
+  .btns-1,
+  .btns-2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 70px;
+  }
+  .snippets p {
+    padding: 0px 30px 0px 30px;
+  }
+  .computer {
+    display: flex;
+    flex-direction: column;
+  }
+  .computer-img img {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .computer-aside {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 0px;
+  }
+  #asd,
+  #asd p {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  #asd h3 {
+    margin-right: 50px;
+  }
+  .devices {
+    display: flex;
+  }
+  .devices p {
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
+  }
+  .devices img {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .supercharge {
+    margin-top: 100px;
+  }
+  .boost {
+    margin-top: -50px;
+  }
+
+  .create {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .svgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+  }
+  .store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .store p {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-bars {
+    display: flex;
+    flex-direction: column;
+  }
+  .navvs {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .base--svgs {
+    margin-top: 30px;
+    gap: 30px;
   }
 } ;
