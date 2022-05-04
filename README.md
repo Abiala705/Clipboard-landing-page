@@ -49,4 +49,4 @@ I got stuck while trying to give class names to semantic elements. I saw a resou
 
 - Frontend Mentor - [@Abiala705](https://www.frontendmentor.io/profile/Abiala705)
 - Twitter - [@abiala_israel](https://www.twitter.com/abiala_israel)
-- LinkedIn - [Abiala (Adetayo) Israel](https://www.linkedin.com/in/abiala_israel)
+- LinkedIn - [Abiala (Adetayo) Israel](https://www.linkedin.com/in/abiala-israel)
